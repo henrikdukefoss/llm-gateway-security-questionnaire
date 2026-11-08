@@ -233,7 +233,7 @@ Scoring suggestion: 2 = good answer with evidence, 1 = partial or unverified, 0 
 
 ### AU-03. How long are audit and request records kept, and can you choose a period?
 
-**Why it matters.** Retention for audit records often has to match your own policy (for example 12 months, or the six months the EU AI Act sets as a minimum for deployer logs).
+**Why it matters.** Retention for audit records often has to match your own policy (for example 12 months). If you deploy a high-risk AI system, Art. 26(6) of the EU AI Act requires you to keep the logs it automatically generates, to the extent they are under your control, for at least six months, unless applicable Union or national law (in particular data protection law) provides otherwise.
 
 **Good answer.** A stated retention period, configurable or at least long enough for your policy, with export before deletion.
 
@@ -369,9 +369,9 @@ Scoring suggestion: 2 = good answer with evidence, 1 = partial or unverified, 0 
 
 ## AI: EU AI Act deployer support
 
-### AI-01. Can the service help you keep the logs a deployer of a high-risk AI system must keep (Art. 26(6): at least six months, where the logs are under your control)?
+### AI-01. Can the service help you keep the logs a deployer of a high-risk AI system must keep (Art. 26(6): automatically generated logs under your control, kept for at least six months unless applicable Union or national law provides otherwise)?
 
-**Why it matters.** If you deploy a high-risk system, log retention is your obligation. Your gateway is often where those logs are produced.
+**Why it matters.** If you deploy a high-risk system, keeping its automatically generated logs is your obligation, to the extent those logs are under your control. The six-month minimum applies unless applicable Union or national law, in particular on personal data protection, sets a different period. Financial institutions keep these logs as part of their documentation under Union financial services law. Your gateway is often where those logs are produced.
 
 **Good answer.** Exportable request records with a retention period you can set to meet your policy.
 
@@ -391,7 +391,7 @@ Scoring suggestion: 2 = good answer with evidence, 1 = partial or unverified, 0 
 
 ### AI-03. Can the service support transparency duties, for example by preserving provider watermarks or marking AI-generated output (Art. 50)?
 
-**Why it matters.** Art. 50 transparency duties, including machine-readable marking of AI-generated content, apply from 2 August 2026. Check with counsel for any transitional periods or amendments.
+**Why it matters.** Art. 50 splits the duties. Art. 50(2) puts the machine-readable marking duty on providers of AI systems that generate synthetic audio, image, video or text. Deployers have separate disclosure duties, for example Art. 50(4) for deep fakes. Art. 50 applies from 2 August 2026. Under Art. 111(4), providers of in-scope systems placed on the market before 2 August 2026 must comply with Art. 50(2) by 2 December 2026. A gateway is usually neither the marking provider nor the disclosing deployer, but it must not strip the provider's marking.
 
 **Good answer.** Clear statement of whether the gateway modifies outputs, and how provider watermarks or metadata are passed through.
 
